@@ -1,0 +1,32 @@
+.hero-image,
+.stay-productive_image {
+  width: 100%;
+}
+
+.hero-image img,
+.stay-productive_image img {
+  width: 100%;
+}
+
+.container {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 1.3rem;
+  //   font-size: ;
+  font-family: $Family-Heading;
+  font-weight: $Weights-Heading-700;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  line-height: 1.4;
+  //   letter-spacing: 1;
+}
+
+p {
+  font-size: 0.9rem;
+}
