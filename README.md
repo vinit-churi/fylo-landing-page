@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vinit-churi/fylo-landing-page)
-- Live Site URL: [Add live site URL here](https://vinit-churi.github.io/fylo-landing-page/)
+- Solution URL: [github](https://github.com/vinit-churi/fylo-landing-page)
+- Live Site URL: [github pages](https://vinit-churi.github.io/fylo-landing-page/)
 
 ## My process
 
