@@ -20,6 +20,10 @@ header {
   //   margin-right: auto;
   //   margin-left: auto;
   font-size: 16px;
+  @media screen and (min-width: 800px) {
+    font-size: 18px;
+  }
+
   nav {
     height: 78px;
     display: flex;
@@ -29,8 +33,14 @@ header {
     margin-right: auto;
     margin-left: auto;
     padding: auto 10px;
+    @media screen and (min-width: 800px) {
+      height: 184px;
+    }
     .logo {
       width: 90px;
+      @media screen and (min-width: 800px) {
+        width: 180px;
+      }
       img {
         width: 100%;
       }
@@ -40,6 +50,10 @@ header {
       font-size: 13px;
       gap: 20px;
       font-weight: 400;
+      @media screen and (min-width: 800px) {
+        gap: 50px;
+        font-size: 1.05rem;
+      }
 
       .nav-item {
         padding: 4px 2px;
@@ -49,15 +63,48 @@ header {
 }
 
 .hero {
+  .container {
+    @media screen and (min-width: 800px) {
+      width: 89%;
+    }
+  }
   .all-your-files {
     display: flex;
     flex-direction: column-reverse;
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+      // background-color: $Bright-Blue;
+    }
     .hero-content {
       margin-top: 20px;
+      @media screen and (min-width: 800px) {
+        // margin-top: ;
+        width: 50%;
+        max-width: 450px;
+        // justify-self: center;
+        margin-top: 50px;
+        // align-self: center;
+      }
+
+      h1 {
+        @media screen and (min-width: 800px) {
+          width: 100%;
+          font-size: 2rem;
+          text-align: left;
+          margin-top: 14px;
+          margin-bottom: 0px;
+        }
+      }
 
       p {
         margin-top: 34px;
         text-align: center;
+        @media screen and (min-width: 800px) {
+          margin-top: 14px;
+          text-align: left;
+          margin-bottom: 0px;
+          line-height: 1.4;
+        }
       }
 
       .hero_input {
@@ -67,8 +114,14 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 15px;
+        @media screen and (min-width: 800px) {
+          flex-direction: row;
+          margin-top: 15px;
+          width: 88%;
+          justify-content: flex-start;
+        }
         input[type="text"] {
-          width: 92%;
+          width: 94%;
           height: 34px;
           border-radius: 5px;
           outline: 0;
@@ -83,6 +136,12 @@ header {
           padding-left: 10px;
           z-index: 10;
           cursor: pointer;
+          max-width: 345px;
+          @media screen and (min-width: 800px) {
+            width: 53%;
+            height: 33px;
+            min-width: 106px;
+          }
           &:focus {
             // outline: none;
           }
@@ -97,6 +156,17 @@ header {
           justify-content: center;
           background-color: $Bright-Blue;
           color: $Light-Grayish-Blue;
+          cursor: pointer;
+          padding: 0 5px;
+          z-index: 20;
+          max-width: 345px;
+          @media screen and (min-width: 800px) {
+            width: 34%;
+            min-width: 106px;
+            height: 30px;
+            font-size: 1.1rem;
+            padding: 0.25rem 0.3rem;
+          }
         }
       }
     }
@@ -105,6 +175,12 @@ header {
       width: 95%;
       margin-right: auto;
       margin-left: auto;
+      @media screen and (min-width: 800px) {
+        width: 48%;
+        margin-top: 0;
+        align-self: center;
+        margin-right: 0;
+      }
       img {
         width: 100%;
       }
@@ -115,6 +191,9 @@ header {
 main {
   background-color: #f8f8fe;
   margin-top: 120px;
+  @media screen and (min-width: 800px) {
+    margin-top: 250px;
+  }
 
   position: relative;
   &::before {
@@ -128,18 +207,36 @@ main {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
+    @media screen and (min-width: 800px) {
+      background-image: url("../images/bg-curve-desktop.svg");
+    }
   }
 
   .stay-productive {
     .container {
       display: flex;
       flex-direction: column-reverse;
+      @media screen and (min-width: 800px) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
       .stay-productive-text-section {
+        @media screen and (min-width: 800px) {
+          width: 50%;
+        }
         .stay-productive_content {
           h1 {
             margin-top: 40px;
             font-size: 1rem;
             color: $Very-Dark-Blue;
+
+            @media screen and (min-width: 800px) {
+              width: 100%;
+              font-size: 2rem;
+              text-align: left;
+              margin-top: 0px;
+              margin-bottom: 5px;
+            }
           }
 
           p {
@@ -163,6 +260,10 @@ main {
             align-items: center;
             cursor: pointer;
             justify-content: center;
+            @media screen and (min-width: 800px) {
+              text-align: left;
+              margin-left: 0px;
+            }
             i {
               color: $Moderate-Cyan;
             }
@@ -181,6 +282,10 @@ main {
           box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
           margin-top: 40px;
           margin-bottom: 60px;
+          @media screen and (min-width: 800px) {
+            margin-left: 0px;
+            max-width: 400px;
+          }
           p {
             width: 85%;
             margin-left: auto;
@@ -226,7 +331,21 @@ main {
       }
 
       .stay-productive_image {
+        width: 85%;
         padding-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height: max-content;
+        @media screen and (min-width: 800px) {
+          width: 45%;
+          margin-right: 0px;
+          // min-width: 420px;
+          // min-width: ;
+          // justify-self: center;
+          // align-self: center;
+          // margin-top: 20%;
+          // margin-bottom: auto;
+        }
       }
     }
   }
@@ -238,14 +357,28 @@ main {
   .container {
     padding-top: 30px;
     padding-bottom: 40px;
+    @media screen and (min-width: 800px) {
+      display: flex;
+      justify-content: space-between;
+    }
     .access-content {
+      @media screen and (min-width: 800px) {
+        width: 50%;
+      }
       h2 {
         font-size: 1.15rem;
         text-align: center;
+        @media screen and (min-width: 800px) {
+          text-align: left;
+          font-size: 1.3rem;
+        }
       }
       p {
         font-size: 00.85rem;
         text-align: center;
+        @media screen and (min-width: 800px) {
+          text-align: left;
+        }
       }
     }
     .access-input {
@@ -255,6 +388,10 @@ main {
       flex-direction: column;
       align-items: center;
       gap: 15px;
+      @media screen and (min-width: 800px) {
+        width: 40%;
+        // ali
+      }
       input[type="text"] {
         width: 92%;
         height: 34px;
@@ -271,6 +408,9 @@ main {
         padding-left: 10px;
         z-index: 10;
         cursor: pointer;
+        @media screen and (min-width: 800px) {
+          align-self: flex-end;
+        }
         &:focus {
           // outline: none;
         }
@@ -285,6 +425,13 @@ main {
         justify-content: center;
         background-color: $Bright-Blue;
         color: $Light-Grayish-Blue;
+        @media screen and (min-width: 800px) {
+          width: 40%;
+          font-size: 0.9rem;
+          // margin-right: 0;
+          justify-self: flex-end;
+          align-self: flex-end;
+        }
       }
     }
   }
@@ -298,9 +445,19 @@ footer {
   }
   color: #f8f8fe;
   .container {
+    .footer-content {
+      @media screen and (min-width: 800px) {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
     .footer-header {
       //   padding-top: 60px;
       //   padding-bottom: 40px;
+
+      @media screen and (min-width: 800px) {
+        width: 33.33%;
+      }
 
       .emailAndPhone {
         margin: 45px 0;
@@ -352,6 +509,18 @@ footer {
       display: grid;
       grid-template-rows: 60% 40%;
       gap: 10px;
+
+      @media screen and (min-width: 800px) {
+        // display: flex;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        width: 33.33%;
+
+        p {
+          margin-top: 0;
+          // margin-bottom: ;
+        }
+      }
     }
   }
   a {
@@ -367,6 +536,26 @@ footer {
     gap: 20px;
     font-size: 1.5rem;
     cursor: pointer;
+
+    // background-color: white;
+    @media screen and (min-width: 800px) {
+      // width: 33.33%;
+      align-items: flex-start;
+      width: 20%;
+      padding-top: 0px;
+    }
+    .icon-container {
+      @media screen and (min-width: 800px) {
+        width: 60%;
+        // gap: 40px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        cursor: pointer;
+
+        // background-color: wheat;
+      }
+    }
   }
 
   //   img {
