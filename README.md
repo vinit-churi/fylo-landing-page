@@ -12,13 +12,13 @@ Users should be able to:
 
 ### Screenshots
 
-<img src="https://res.cloudinary.com/vinitchuri/image/upload/v1645713662/web%20projects/frontendmentor/CPT2202242003-1519x721_se6esp.gif" width="80%"/>
+<img src="https://res.cloudinary.com/vinitchuri/image/upload/v1645713662/web%20projects/frontendmentor/CPT2202242003-1519x721_se6esp.gif" width="70%"/>
 <img src="https://res.cloudinary.com/vinitchuri/image/upload/v1645713663/web%20projects/frontendmentor/CPT2202231403-351x711_j1ktb2.gif" width="15%"/>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/vinit-churi/fylo-landing-page)
+- Live Site URL: [Add live site URL here](https://vinit-churi.github.io/fylo-landing-page/)
 
 ## My process
 
